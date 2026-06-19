@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub und GitHub Pages</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #18212f;
+    }
+
+    .page {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    header {
+      margin-bottom: 28px;
+      padding: 28px;
+      border-radius: 8px;
+      background: #18212f;
+      color: white;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 42px;
+    }
+
+    .intro {
+      margin: 0;
+      font-size: 18px;
+      color: #d8e2f0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      padding: 24px;
+      border: 1px solid #d8e2f0;
+      border-radius: 8px;
+      background: white;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 28px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+      line-height: 1.7;
+    }
+
+    .example {
+      margin-top: 18px;
+      padding: 14px;
+      border-radius: 8px;
+      background: #edf3ff;
+      font-weight: 700;
+      word-break: break-word;
+    }
+
+    @media (max-width: 720px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>GitHub</h1>
+      <p class="intro">Eine einfache Übersicht für deine erste eigene Website.</p>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <h2>GitHub</h2>
+        <ul>
+          <li>Plattform zum Speichern von Code (Repositories).</li>
+          <li>Für Programmierer und Teams.</li>
+          <li>Versionsverwaltung mit Git.</li>
+          <li>Man kann Projekte entwickeln und gemeinsam bearbeiten.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>GitHub Pages</h2>
+        <ul>
+          <li>Dienst von GitHub zum Veröffentlichen von Webseiten.</li>
+          <li>Nimmt Dateien aus einem GitHub-Repository und macht daraus eine Website.</li>
+          <li>Kostenlos für statische Webseiten (HTML, CSS, JavaScript).</li>
+          <li>Deine Webseite bekommt z. B. die Adresse:</li>
+        </ul>
+        <div class="example">https://dein-name.github.io/dein-projekt/</div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
