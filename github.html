@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GitHub und GitHub Pages</title>
+  <title>Git und GitHub</title>
   <style>
     body {
       margin: 0;
@@ -71,6 +71,16 @@
       word-break: break-word;
     }
 
+    .comparison {
+      margin-top: 18px;
+    }
+
+    .comparison p {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
     @media (max-width: 720px) {
       .grid {
         grid-template-columns: 1fr;
@@ -85,31 +95,39 @@
 <body>
   <main class="page">
     <header>
-      <h1>GitHub</h1>
-      <p class="intro">Eine einfache Übersicht für deine erste eigene Website.</p>
+      <h1>Git und GitHub</h1>
+      <p class="intro">Ein einfacher Vergleich: Was ist das Programm, was ist die Plattform?</p>
     </header>
 
     <section class="grid">
       <article class="card">
-        <h2>GitHub</h2>
+        <h2>Git</h2>
         <ul>
-          <li>Plattform zum Speichern von Code (Repositories).</li>
-          <li>Für Programmierer und Teams.</li>
-          <li>Versionsverwaltung mit Git.</li>
-          <li>Man kann Projekte entwickeln und gemeinsam bearbeiten.</li>
+          <li>Git ist ein Programm für Versionsverwaltung.</li>
+          <li>Es speichert Änderungen an deinem Code.</li>
+          <li>Du kannst ältere Versionen wiederfinden.</li>
+          <li>Git funktioniert auch ohne Internet auf deinem Computer.</li>
         </ul>
       </article>
 
       <article class="card">
-        <h2>GitHub Pages</h2>
+        <h2>GitHub</h2>
         <ul>
-          <li>Dienst von GitHub zum Veröffentlichen von Webseiten.</li>
-          <li>Nimmt Dateien aus einem GitHub-Repository und macht daraus eine Website.</li>
-          <li>Kostenlos für statische Webseiten (HTML, CSS, JavaScript).</li>
-          <li>Deine Webseite bekommt z. B. die Adresse:</li>
+          <li>GitHub ist eine Website und Plattform im Internet.</li>
+          <li>Dort kannst du Git-Projekte online speichern.</li>
+          <li>Andere Menschen können deinen Code sehen oder mitarbeiten.</li>
+          <li>GitHub nutzt Git, ist aber nicht dasselbe wie Git.</li>
         </ul>
-        <div class="example">https://dein-name.github.io/dein-projekt/</div>
       </article>
+    </section>
+
+    <section class="card comparison">
+      <h2>Der Unterschied kurz gesagt</h2>
+      <p>
+        Git ist das Werkzeug auf deinem Computer. GitHub ist der Ort im Internet,
+        wo du dein Git-Projekt hochladen und teilen kannst.
+      </p>
+      <div class="example">Git = Werkzeug · GitHub = Online-Plattform</div>
     </section>
   </main>
 </body>
